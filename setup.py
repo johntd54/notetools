@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="notetools",
-    version="0.0.1",
+    version="0.0.2",
     author="johntd54",
     author_email="trungduc1992@gmail.com",
     description="Notebook utility functions",
@@ -23,6 +23,8 @@ setuptools.setup(
     license='GNU General Public License (GPL)',
     keywords="notetools deep learning inquire artificial intelligence",
     install_requires=[
+        'IPython',
+        'PyDrive',
     ],
     python_requires=">=3.5"
 )
